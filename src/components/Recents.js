@@ -15,7 +15,7 @@ function Recents() {
   const showModal = (city) => {
     setIsModalVisible(true);
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&APPID=${process.env.REACT_APP_API_KEY}`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&APPID=9900129901`
     )
       .then((response) => response.json())
       .then((data) => {
