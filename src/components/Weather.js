@@ -129,7 +129,7 @@ function Weather() {
         ) : (
           <div>
             <div className="location-box">
-              <div className="location">Weather Wizard</div>
+              <div className="location">Nice Weather</div>
               <div className="date">{dateBuilder(new Date())}</div>
             </div>
 
